@@ -2,3 +2,11 @@ body{
     background-color: #80D8FF;
     text-align: center;
 }
+p, a, h3, h4, h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hf{
+    background-color: #B3E5FC;
+    border-radius: 15px;
+    padding: 0 5% 0 5%;
+}
