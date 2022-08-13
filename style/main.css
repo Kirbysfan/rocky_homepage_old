@@ -21,3 +21,8 @@ img{
     width: fit-content;
     max-width: 100%;
 }
+
+.p1-1{
+    width: 25%;
+    float: right;
+}
