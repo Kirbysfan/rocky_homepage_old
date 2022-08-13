@@ -11,6 +11,7 @@ p, a, h3, h4, h2{
     background-color: #B3E5FC;
     border-radius: 15px;
     padding: 0 5% 0 5%;
+    clear: right;
 }
 
 img{
@@ -25,4 +26,8 @@ img{
 .p1-1{
     width: 25%;
     float: right;
+}
+
+.warning{
+    clear: right;
 }
