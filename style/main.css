@@ -24,11 +24,12 @@ img{
 }
 
 .p1-1{
+    width: 20%;
     float: right;
 }
 
 .p1-1d{
-    width: 20%;
+    float: right;
 }
 
 .caution{
