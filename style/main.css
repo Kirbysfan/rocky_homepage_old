@@ -42,4 +42,9 @@ img{
 .box{
     background-color: #40C4FF;
     border-radius: 15px;
+    margin: 15px;
+}
+
+.box1{
+    width: 320px
 }
