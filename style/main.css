@@ -46,5 +46,6 @@ img{
 }
 
 .box1{
-    width: 320px
+    width: 320px;
+    flex-direction: row;
 }
