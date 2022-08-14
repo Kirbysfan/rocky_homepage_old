@@ -18,6 +18,10 @@ img{
     width: 720px;
 }
 
+.content{
+    display: flex;
+}
+
 .welcome{
     width: fit-content;
     max-width: 100%;
@@ -25,14 +29,17 @@ img{
 
 .p1-1{
     width: 20%;
-    float: right;
 }
 
 .p1-1d{
     display: block;
-    float: right;
 }
 
 .caution{
     clear: right;
+}
+
+.box{
+    background-color: #40C4FF;
+    border-radius: 15px;
 }
