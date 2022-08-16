@@ -40,7 +40,7 @@ img{
     clear: right;
 }
 
-.box{
+.box0{
     background-color: #40C4FF;
     width: 720px;
     height: 768px;
@@ -63,7 +63,10 @@ img{
     flex-direction: column;
     height: 496px;
     width: 320px;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #40C4FF;
+    border-radius: 15px;
+    margin: 15px;
 }
 
 .box3{
