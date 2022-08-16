@@ -20,6 +20,7 @@ img{
 
 .content{
     display: flex;
+    justify-content: center;
 }
 
 .welcome{
@@ -41,11 +42,13 @@ img{
 
 .box{
     background-color: #40C4FF;
+    width: 720px;
     border-radius: 15px;
     margin: 15px;
 }
 
 .box1{
-    width: 320px;
+    width: 500px;
+    height: 480px;
     flex-direction: row;
 }
