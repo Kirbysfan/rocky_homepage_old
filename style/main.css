@@ -1,10 +1,20 @@
+@font-face {
+    font-family: ProductSans;
+    src: url(../ProductSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: ProductSansBold;
+    src: url(../ProductSans-Bold.ttf);
+}
+
 body{
     background-color: #80D8FF;
     text-align: center;
 }
 
 p, a, h3, h4, h2{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: ProductSans;
 }
 
 .hf{
@@ -29,7 +39,7 @@ img{
 }
 
 .p1-1{
-    width: 60%;
+    width: 72%;
 }
 
 .p1-1d{
@@ -68,10 +78,12 @@ img{
     background-color: #40C4FF;
     border-radius: 15px;
     margin: 15px;
-    padding: 24px;
+    padding: 24px 0 24px 0;
 }
 
 .box3{
     display: flex;
     flex-direction: row;
+    font-size: 32px;
+    font-family:ProductSansBold ;
 }
