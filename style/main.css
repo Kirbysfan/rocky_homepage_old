@@ -96,3 +96,7 @@ img{
 .a_menu{
     color: #00B0FF;
 }
+
+.textbox{
+    align-items: flex-start;
+}
