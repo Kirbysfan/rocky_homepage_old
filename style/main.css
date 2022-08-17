@@ -88,3 +88,8 @@ img{
     padding-left: 24px;
     font-family: ProductSansBold;
 }
+
+.text{
+    text-align: left;
+    margin: 24px 24px 24px 24px;
+}
