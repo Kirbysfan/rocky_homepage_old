@@ -78,6 +78,7 @@ img{
     background-color: #40C4FF;
     border-radius: 15px;
     margin: 15px;
+    padding: 24px 0 24px 0;
     padding: 24px 0px 24px 24px;
 }
 
@@ -85,5 +86,6 @@ img{
     display: flex;
     flex-direction: row;
     font-size: 32px;
+    padding-left: 24px;
     font-family: ProductSansBold;
 }
