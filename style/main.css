@@ -11,7 +11,6 @@
 body{
     background-color: #80D8FF;
     text-align: center;
-    max-width:1152px
 }
 
 p, a, h3, h4, h2{
@@ -29,6 +28,7 @@ p, a, h3, h4, h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
+    max-width: 1152px;
 }
 
 .welcome{
