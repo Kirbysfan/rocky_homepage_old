@@ -58,9 +58,9 @@ p, a, h3, h4, h2{
 
 .box1{
     height: 320px;
-    max-width: 720px
-    flex-direction: row;
+    max-width: 720px;
     justify-content: center;
+    flex-direction: row;
 }
 
 .hoshi_menu{
