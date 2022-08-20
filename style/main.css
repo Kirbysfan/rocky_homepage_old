@@ -28,7 +28,7 @@ p, a, h3, h4, h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    flex-basis: 1152px;
+    width: 1152px;
 }
 
 .welcome{
@@ -58,6 +58,7 @@ p, a, h3, h4, h2{
 
 .box1{
     height: 320px;
+    max-width: 720px
     flex-direction: row;
     justify-content: center;
 }
@@ -70,6 +71,7 @@ p, a, h3, h4, h2{
     display: flex;
     flex-direction: column;
     height: 300px;
+    max-width: 720px;
     justify-content: space-around;
     background-color: #40C4FF;
     border-radius: 15px;
