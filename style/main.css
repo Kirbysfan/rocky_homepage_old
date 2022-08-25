@@ -10,6 +10,7 @@
 
 .body{
     background-color: #80D8FF;
+    display:flex;
 }
 
 p, a, h3, h4, h2{
