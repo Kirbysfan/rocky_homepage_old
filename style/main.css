@@ -98,16 +98,9 @@ p, a, h3, h4, h2{
 }
 
 .rocky_scale{
-    width: 32%;
+    width: 64%;
 }
 
-.sidenav{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--denim-900);
-}
-
-.nav-width{
+.nav_width{
     width: 400px;
 }
