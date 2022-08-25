@@ -39,7 +39,8 @@ p, a, h3, h4, h2{
 }
 
 .p1-1d{
-    display: block;
+    font-size: small;
+    margin-bottom: 16px;
 }
 
 .caution{
@@ -99,4 +100,8 @@ p, a, h3, h4, h2{
 
 .rocky_scale{
     width: 64%;
+}
+
+.nav-color{
+    background-color: #00B0FF;
 }
