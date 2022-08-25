@@ -25,10 +25,8 @@ p, a, h3, h4, h2{
 }
 
 .content{
-    display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    width: 1152px;
 }
 
 .welcome{
