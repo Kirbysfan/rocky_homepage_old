@@ -57,6 +57,7 @@ p, a, h3, h4, h2{
     max-width: 720px;
     justify-content: center;
     flex-direction: row;
+    margin: 15px;
 }
 
 .hoshi_menu{
