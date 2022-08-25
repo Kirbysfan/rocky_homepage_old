@@ -8,9 +8,8 @@
     src: url(../ProductSans-Bold.ttf);
 }
 
-body{
+.body{
     background-color: #80D8FF;
-    text-align: center;
 }
 
 p, a, h3, h4, h2{
