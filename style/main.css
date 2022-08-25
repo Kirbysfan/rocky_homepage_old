@@ -96,7 +96,3 @@ p, a, h3, h4, h2{
 .textbox{
     align-items: flex-start;
 }
-
-.container-fluid{
-    grid-template-columns:repeat(2) ;
-}
