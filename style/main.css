@@ -95,3 +95,7 @@ p, a, h3, h4, h2{
 .textbox{
     align-items: flex-start;
 }
+
+.rocky_scale{
+    width: 32%;
+}
