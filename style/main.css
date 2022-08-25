@@ -48,7 +48,7 @@ p, a, h3, h4, h2{
 
 .box0{
     background-color: #40C4FF;
-    width: 720px;
+    max-width: 720px;
     height: 768px;
     border-radius: 15px;
     margin: 15px;
@@ -95,4 +95,8 @@ p, a, h3, h4, h2{
 
 .textbox{
     align-items: flex-start;
+}
+
+.container-fluid{
+    grid-template-columns:repeat(2) ;
 }
