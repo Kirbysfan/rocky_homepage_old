@@ -1,0 +1,25 @@
+.story_header{
+    background-color:#40C4FF;
+    text-align: left;
+    border-radius: 15px;
+    padding: 24px 24px 24px 24px;
+    margin: 4px 16px 4px 16px;
+}
+.story_head{
+    font-size: 48px;
+    color: #01579B;
+}
+
+.story_subhead{
+    color: #0277BD;
+    font-size: 14px;
+}
+
+.story{
+    background-color: #40C4FF;
+    text-align: left;
+    border-radius: 15px;
+    padding: 24px 24px 24px 24px;
+    margin: 4px 16px 4px 16px;
+    color: #01579B;
+}

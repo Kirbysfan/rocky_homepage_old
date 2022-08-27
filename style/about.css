@@ -1,0 +1,84 @@
+.info_sheet{
+    display:flex;
+    flex-direction: column;
+    color: #01579B;
+}
+
+.pfp_sheet{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.rocky_info{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-grow: 1;
+}
+
+.rocky_pfp{
+    background-color: #40c4FF;
+    width: auto;
+    border-radius: 8px;
+    margin: 4px 4px 4px 4px;
+}
+
+.rocky_pic{
+    width: fit-content;
+}
+
+.sheet{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #40c4FF;
+    border-radius: 8px;
+    margin: 2px 4px 2px 4px;
+}
+
+.sheet_first{
+    margin: 0 4px 2px 4px;
+}
+
+.sheet_long{
+    height: 128px
+}
+@media (min-width: 768px) {
+    .pfp_sheet{
+        display:grid;
+        grid-template-columns: auto 256px 16px;
+    }
+
+    .rocky_info{
+        height: 256px;
+        width: auto;
+    }
+
+    .rocky_pfp{
+        width: 256px;
+        height: 256px;
+        margin: 0 0 2px 0
+    }
+
+    .rocky_pic{
+        width: 240px;
+        align-items: flex-end;
+    }
+
+    .sheet_first .sheet{
+        margin: 0 4px 2px 16px;
+    }
+
+    .sheet{
+        margin: 2px 4px 2px 16px;
+    }
+
+    .sheet_last_pcpfp{
+        margin: 2px 4px 0 16px
+    }
+
+    .c_sheet{
+        margin-right: 16px;
+    }
+}

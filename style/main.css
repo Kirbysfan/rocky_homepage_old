@@ -49,9 +49,10 @@ p, a, h3, h4, h2{
 
 .box0{
     background-color: #40C4FF;
-    height: 768px;
+    height: auto;
     border-radius: 15px;
     margin: 15px;
+    padding: 2px 0 2px 0;
 }
 
 .box1{
@@ -104,4 +105,33 @@ p, a, h3, h4, h2{
 
 .margin-banner{
     margin-left: 24px;
+}
+
+.greeting{
+    font-style: ProductSansBold;
+    font-size: 52px;
+    color: #0277BD;
+}
+.correct{
+    flex-direction: column;
+    min-height: fit-content;
+}
+
+.gap{
+    font-size: 16px;
+}
+
+.greeting1{
+    font-size: 16px;
+    color: #0091EA;
+}
+
+.greeting2{
+    font-size: 24px;
+    color: #0091EA;
+}
+
+.hideit{
+    font-size: 8px;
+    color: gray;
 }

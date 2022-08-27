@@ -10,7 +10,7 @@ body {
 
 @media (min-width: 768px) {
   body {
-    margin-left: 400px;
+    margin-left: 320px;
   }
 }
 
@@ -25,7 +25,7 @@ body {
 @media (min-width: 768px) {
   .navbar.fixed-left {
     bottom: 0;
-    width: 400px;
+    width: 320px;
     flex-flow: column nowrap;
     align-items: flex-start;
   }

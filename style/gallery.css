@@ -1,0 +1,40 @@
+.post{
+    display: flex;
+    background-color: #40C4FF;
+    min-height: 72px;
+    border-radius: 15px;
+    margin: 4px 16px 4px 16px;
+    flex-direction: row;
+    align-items: center;
+}
+.g_title{
+    color: #01579B;
+}
+.g_hoshi{
+    width: 48px;
+}
+.hoshi{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.g_info{
+    text-align: left;
+    margin: 8px 16px 8px 0;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.g_detail{
+    font-size: 12px;
+    color: #0277BD;
+}
+
+.g_misc{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    color: #0091EA;
+}
+
+.g_empty{
+    flex-grow: 1;
+}
