@@ -36,6 +36,10 @@
     color: white;
 }
 
+.secret{
+    font-size: 8px;
+    color: gray;
+}
 @media (min-width: 768px){
 
     .p_info{
