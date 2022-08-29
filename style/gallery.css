@@ -4,7 +4,6 @@
     min-height: 72px;
     border-radius: 15px;
     margin: 4px 16px 4px 16px;
-    flex-direction: row;
     align-items: center;
     flex-direction: column;
 }
