@@ -5,7 +5,7 @@
     border-radius: 15px;
     margin: 4px 16px 4px 16px;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 .g_title{
     color: #01579B;
