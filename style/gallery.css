@@ -1,3 +1,7 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
 .post{
     display: flex;
     background-color: #40C4FF;
