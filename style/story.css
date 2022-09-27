@@ -22,5 +22,7 @@
     padding: 24px 24px 24px 24px;
     margin: 4px 16px 4px 16px;
     color: #01579B;
+}
+.s_indent{
     text-indent: 2em;
 }
