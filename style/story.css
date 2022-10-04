@@ -26,3 +26,20 @@
 .s_indent{
     text-indent: 2em;
 }
+.story_sector{
+    display: flex;
+    text-align: left;
+    background-color: #40C4FF;
+    color: #01579B;
+    min-height: 72px;
+    border-radius: 15px;
+    margin: 8px 16px 4px 16px;
+    align-items: center;
+}
+.hoshi{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.s_hoshi{
+    width: 48px;
+}

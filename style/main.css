@@ -135,3 +135,7 @@ p, a, h3, h4, h2{
     font-size: 8px;
     color: gray;
 }
+.lang_selection{
+    max-width: 768px;
+    margin: auto;
+}
