@@ -9,61 +9,72 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="style/navbar-fixed-left.css">
         <link rel="stylesheet" href="style/story.css">
+        <link rel="stylesheet" href="style/halloween.css">
     </head>
-    <body class="text-center body" id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav" role="banner" style="background-color: #00B0FF">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none margin-banner">Welcome to Rocky's personal website!</span>
+    <body class="text-center body" id="page-top hw_back">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav" role="banner" style="background-color: #AB47BC">
+            <a class="navbar-brand js-scroll-trigger">
+                <span class="d-block d-lg-none margin-banner">Welcome to Rocky's website!</span>
                 <span class="d-none d-lg-block">
                     <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" src="Rocky_By_薰凝.webp" />
                     <figcaption class="p1-1d"><em>Artwork by 薰凝</em></figcaption>
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse special" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link " href="about.html">About me</a></li>
                     <li class="nav-item"><a class="nav-link " href="#">Story</a></li>
                     <li class="nav-item"><a class="nav-link " href="gallery.html">Gallery</a></li>
                 </ul>
+                <ul class="navbar-nav mr-auto mt-auto">
+                    <li class="nav-item"><a class="nav-link" href="lang_new.html"><img src="lang_switch.svg" class="lang_switch"> Language: English</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img src="Twitter.svg" class="twitter"></a></li>
+                </ul>
             </div>
         </nav>
         <div class="container-fluid p-0 correct">
-            <div class="hf">
-                <p>
-                    <a href="lang.html">Current Language: English</a><br>
-                </p>
-            </div>
             <div class="content">
-                <div class="story_header">
-                    <p class="story_head"><strong>My story</strong></p>
+                <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+                <div class="story_header" id="hw_sect">
+                    <p class="story_head" id="hw_cont"><strong>My story</strong></p>
+                    <p class="story_subhead" id="hw_cont">Would you like to know my story in YaDian Land?</p>
                 </div>
-                <div class="story_sector">
+                <div class="story_sector" id="hw_sect">
                     <div class="hoshi">
-                        <img src="hoshi.svg" class="s_hoshi">
+                        <img src="hoshi_w.svg" class="s_hoshi">
                     </div>
                     <div>
-                        <h5><a href="story/rocky_1.html">How did Rocky arrive at the Meow Kingdom?</a></h5>
-                        <p>You means how did I becomes a software engineer here? That's a long story...</p>
+                        <h5><a href="story/rocky_1.html" id="hw_cont">How did Rocky arrive at the Meow Kingdom?</a></h5>
+                        <p id="hw_cont">You means how did I becomes a software engineer here? That's a long story...</p>
                     </div>
                 </div>
-                <div class="story_sector">
+                <div class="story_sector" id="hw_sect">
                     <div class="hoshi">
-                        <img src="hoshi.svg" class="s_hoshi">
+                        <img src="hoshi_w.svg" class="s_hoshi">
                     </div>
                     <div>
-                        <h5><a href="story/rocky_2.html">Two brown cats.</a></h5>
-                        <p>It's hard to believe that I'm making new friends right after I moved here!</p>
+                        <h5><a href="story/rocky_2.html" id="hw_cont">Two brown cats.</a></h5>
+                        <p id="hw_cont">It's hard to believe that I'm making new friends right after I moved here!</p>
+                    </div>
+                </div>
+                <div class="story_sector" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="hoshi_w.svg" class="s_hoshi">
+                    </div>
+                    <div>
+                        <h5><a href="story/rocky_3.html" id="hw_cont">My amazing journey of decorating home.</a></h5>
+                        <p id="hw_cont">Hmm… It's time to make my new home a satisfying place for me!</p>
                     </div>
                 </div>
             </div>
+            <div class="s_grow"></div>
             <div class="caution">
                 <p><strong>The DNAxCAT character body is copyrighted to DNAxCAT.</strong></p>
             </div>
-            <footer class="hf">
-                <p>Check out my <a href="https://twitter.com/kirbysfan2">Twitter</a></p>
-            </footer>
         </div>
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
         <script src="js/scripts.js"></script>  

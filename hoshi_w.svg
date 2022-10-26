@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16.226999"
+   viewBox="0 0 4.2333333 4.2933935"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="hoshi_w.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="27.860365"
+     inkscape:cx="7.3401766"
+     inkscape:cy="7.6273229"
+     inkscape:window-width="1440"
+     inkscape:window-height="830"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#000000" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.5"
+       id="path1710"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="3.409862"
+       sodipodi:cy="5.1327395"
+       sodipodi:r1="7.7752676"
+       sodipodi:r2="5.2094293"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.1519173"
+       inkscape:rounded="0.3"
+       inkscape:randomized="0"
+       d="M 10.143441,9.0203734 C 9.4390009,10.2405 6.8158045,9.3187465 5.5287278,9.89179 4.2416511,10.464833 3.1713864,13.031022 1.793293,12.738099 0.41519955,12.445176 0.48122695,9.6655306 -0.46149834,8.6185281 -1.4042236,7.5715256 -4.1755437,7.3466392 -4.3228118,5.9454763 -4.47008,4.5443134 -1.8060765,3.7481515 -1.1016361,2.5280249 -0.39719561,1.3078983 -1.0397009,-1.3972774 0.24737583,-1.9703209 1.5344525,-2.5433643 3.1148698,-0.255774 4.4929633,0.0371488 5.8710567,0.33007161 8.2452866,-1.1169325 9.1880119,-0.06992996 10.130737,0.97707255 8.4434854,3.187043 8.5907535,4.5882059 8.7380217,5.9893688 10.847882,7.8002467 10.143441,9.0203734 Z"
+       transform="matrix(0.28964376,0,0,0.28964376,1.253777,0.5972595)"
+       inkscape:transform-center-x="0.12475561"
+       inkscape:transform-center-y="0.062820538" />
+  </g>
+</svg>

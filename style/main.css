@@ -1,6 +1,6 @@
 @font-face {
     font-family: ProductSans;
-    src: url(../ProductSans-Regular.ttf);
+    src: url(../halloween/NaikaiFont-Regular.ttf);
 }
 
 @font-face {
@@ -13,8 +13,8 @@
     display:flex;
 }
 
-p, a, h3, h4, h2{
-    font-family: ProductSans;
+*{
+    font-family: ProductSans !important;
 }
 
 .hf{
@@ -138,4 +138,73 @@ p, a, h3, h4, h2{
 .lang_selection{
     max-width: 768px;
     margin: auto;
+}
+.c_button{
+    width: 72px;
+    height: 48px;
+}
+.c_button.bt1{
+    margin: 0 3% 0 0;
+}
+.c_button.bt2{
+    margin: 0 3% 0 3%;
+}
+.c_button.bt3{
+    margin: 0 0 0 3%;
+}
+.r_space{
+    flex-grow: 1;
+}
+.lang_switch{
+    width: 24px;
+}
+.twitter{
+    width: 36px;
+}
+@media (min-width: 768px) {
+    .special{
+        height: 100% !important;
+    }
+}
+@media (max-width: 768px) {
+    .c_button.bt1{
+        margin: 1% 1% 1% 0;
+    }
+    .c_button.bt2{
+        margin: 1% 1% 1% 1%;
+    }
+    .c_button.bt3{
+        margin: 1% 0 1% 1%;
+    }
+}
+.note{
+    max-width: 384px;
+    border: solid 2px #4E342E;
+    background-color: #FFF9C4;
+    color: #5D4037;
+    margin: 16px auto;
+    min-height: 384px;
+    padding: 12px;
+}
+.note p{
+    margin-left: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.note ul li{
+    line-height: 32px;
+    font-size: 14px;
+    font-family: ProductSans;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.top{
+    background-color: #0091EA !important;
+    color: snow !important;
+    border-radius: 50% !important;
+    border-color: #00B0FF !important;
 }

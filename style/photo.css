@@ -40,6 +40,9 @@
     font-size: 8px;
     color: gray;
 }
+.p_long{
+    text-align: left;
+}
 @media (min-width: 768px){
 
     .p_info{
@@ -51,7 +54,9 @@
         height: 512px;
     }
     .p_image{
-        height: max-content;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     .p_gap{

@@ -9,60 +9,67 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="style/navbar-fixed-left.css">
         <link rel="stylesheet" href="style/about.css">
+        <link rel="stylesheet" href="style/halloween.css">
     </head>
     <body class="text-center body" id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav" role="banner" style="background-color: #00B0FF">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none margin-banner">Welcome to Rocky's personal website!</span>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav" role="banner" style="background-color: #AB47BC">
+            <a class="navbar-brand js-scroll-trigger">
+                <span class="d-block d-lg-none margin-banner">Welcome to Rocky's website!</span>
                 <span class="d-none d-lg-block">
                     <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" src="Rocky_By_薰凝.webp" />
                     <figcaption class="p1-1d"><em>Artwork by 薰凝</em></figcaption>
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse special" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link " href="#">About me</a></li>
                     <li class="nav-item"><a class="nav-link " href="story.html">Story</a></li>
                     <li class="nav-item"><a class="nav-link " href="gallery.html">Gallery</a></li>
                 </ul>
+                <ul class="navbar-nav mr-auto mt-auto">
+                    <li class="nav-item"><a class="nav-link" href="lang_new.html"><img src="lang_switch.svg" class="lang_switch"> Language: English</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img src="Twitter.svg" class="twitter"></a></li>
+                </ul>
             </div>
         </nav>
         <div class="container-fluid p-0 correct">
-            <div class="hf">
-                <p>
-                    <a href="lang.html">Current Language: English</a><br>
-                </p>
-            </div>
             <div class="content">
+                <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+                <div class="box0 textbox" id="hw_sect">
+                    <p class="about_head text-left" id="hw_cont"><strong>About me</strong></p>
+                    <p class="about_subhead" id="hw_cont">Would you like to know about me? Here you go!</p>
+                </div>
                 <div class="info_sheet">
                     <div class="pfp_sheet">
                         <div class="rocky_info">
-                            <div class="sheet sheet_first">
+                            <div class="sheet sheet_first" id="hw_sheet">
                                 <p>Name: Rocky</p>
                             </div>
-                            <div class="sheet">
+                            <div class="sheet" id="hw_sheet">
                                 <p>Gender: ♂</p>
                             </div>
-                            <div class="sheet">
+                            <div class="sheet" id="hw_sheet">
                                 <p>Living region: Meow Kingdom</p>
                             </div>
-                            <div class="sheet sheet_last_pcpfp">
+                            <div class="sheet sheet_last_pcpfp" id="hw_sheet">
                                 <p>Favourite food: Chocolate meow cookie</p>
                             </div>
                         </div>
-                        <div class="rocky_pfp">
+                        <div class="rocky_pfp" id="hw_sheet">
                             <img src="about/pfp.png" class="rocky_pic">
                         </div>
                     </div>
-                    <div class="sheet sheet_long c_sheet">
+                    <div class="sheet sheet_long c_sheet" id="hw_sheet">
                         <p>Hobby:<br>
                             Learning to code, playing BMS, making sth. funny<br>
                             And... also making myself cuter! <em style="color:gray">(Sometime I might crossdress! Ow<)</em>
                         </p>
                     </div>
-                    <div class="sheet sheet_long c_sheet">
+                    <div class="sheet sheet_long c_sheet" id="hw_sheet">
                         <p>
                             Favorite color:<br>
                             <span style="color:#448AFF">Sky blue</span>  <span style="color:#FFFFFF">White</span>  <span style="color:#000000">Black</span>  
@@ -70,16 +77,16 @@
                             <span style="color:gray; font-size:8px"><em>...and I also like some colors such as <span style="color:#F472D0">pink</span> and <span style="color:#FFEB3B">yellow</span>!</em></span>
                         </p>
                     </div>
-                    <div class="sheet c_sheet">
+                    <div class="sheet c_sheet" id="hw_sheet">
                         <p>Job: Software engineer</p>
                     </div>
-                    <div class="sheet sheet_long c_sheet">
+                    <div class="sheet sheet_long c_sheet" id="hw_sheet">
                         <p>
                             Coding language:<br>
-                            Python, HTML, CSS
+                            C#, Python, HTML (Including CSS and JavaScript)
                         </p>
                     </div>
-                    <div class="sheet sheet_last sheet_long">
+                    <div class="sheet sheet_last sheet_long" id="hw_sheet">
                         <p>Message:<br>
                             Nice to meet you, kitty! >w<
                         </p>
@@ -89,9 +96,6 @@
             <div class="caution">
                 <p><strong>The DNAxCAT character body is copyrighted to DNAxCAT.</strong></p>
             </div>
-            <footer class="hf">
-                <p>Check out my <a href="https://twitter.com/kirbysfan2">Twitter</a></p>
-            </footer>
         </div>
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
         <script src="js/scripts.js"></script>  

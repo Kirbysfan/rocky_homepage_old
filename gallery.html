@@ -9,72 +9,150 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="style/navbar-fixed-left.css">
         <link rel="stylesheet" href="style/gallery.css">
+        <link rel="stylesheet" href="style/halloween.css">
     </head>
     <body class="text-center body" id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav" role="banner" style="background-color: #00B0FF">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none margin-banner">Welcome to Rocky's personal website!</span>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav" role="banner" style="background-color: #AB47BC">
+            <a class="navbar-brand js-scroll-trigger">
+                <span class="d-block d-lg-none margin-banner">Welcome to Rocky's website!</span>
                 <span class="d-none d-lg-block">
                     <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" src="Rocky_By_薰凝.webp" />
                     <figcaption class="p1-1d"><em>Artwork by 薰凝</em></figcaption>
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse special" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link " href="about.html">About me</a></li>
                     <li class="nav-item"><a class="nav-link " href="story.html">Story</a></li>
                     <li class="nav-item"><a class="nav-link " href="#">Gallery</a></li>
                 </ul>
+                <ul class="navbar-nav mr-auto mt-auto">
+                    <li class="nav-item"><a class="nav-link" href="lang_new.html"><img src="lang_switch.svg" class="lang_switch"> Language: English</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img src="Twitter.svg" class="twitter"></a></li>
+                </ul>
             </div>
         </nav>
         <div class="container-fluid p-0 correct">
-            <div class="hf">
-                <p>
-                    <a href="lang.html">Current Language: English</a><br>
-                </p>
-            </div>
             <div class="content">
-                <div class="post">
-                    <div class="hoshi">
-                        <img src="hoshi.svg" class="g_hoshi">
-                    </div>
-                    <div class="g_info">
-                        <h5 class="g_title"><a href="gallery/rocky_is_here.html" class="g_title">Rocky is here!</a></h5>
-                        <p class="g_detail">Hi! This is Rocky! Nice to meet you all!, kitties in YaDian Land!</p>
-                        <div class="g_misc">
-                            <p class="g_date">8/8/2022</p>
-                            <div class="g_empty"></div>
-                            <p class="g_artist">Artist: 薰凝</p>
+                <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+                <div class="box0" id="hw_sect">
+                    <p class="g_head" id="hw_cont"><strong>Gallery</strong></p>
+                </div>
+                <div class="gallery">
+                    <div class="post" id="hw_sect_gold">
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/magician_rocky.html" class="g_title" id="hw_cont_gold">Nyahoo!!! Here's Rocky, the magician!!!</a></h5>
+                            <p class="g_detail" id="hw_cont_gold">Happy Halloween, Everyone!</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont_gold">10/5/2022</p>
+                                <div class="g_empty" id="hw_cont_gold"></div>
+                                <p class="g_artist" id="hw_cont_gold">Artist: 土星喵</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="post">
-                    <div class="hoshi">
-                        <img src="hoshi.svg" class="g_hoshi">
-                    </div>
-                    <div class="g_info">
-                        <h5 class="g_title"><a href="gallery/relaxing_rocky.html" class="g_title">Me relaxing would be like:</a></h5>
-                        <p class="g_detail">Chocolate meow cookie... More... =v=</p>
-                        <div class="g_misc">
-                            <p class="g_date">8/8/2022</p>
-                            <div class="g_empty"></div>
-                            <p class="g_artist">Artist: 薰凝</p>
+                    <div class="post" id="hw_sect_gold">
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/angel_rocky.html" class="g_title" id="hw_cont_gold">Here comes Rocky the angel!</a></h5>
+                            <p class="g_detail" id="hw_cont_gold">What a magical gift!!!</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont_gold">10/25/2022</p>
+                                <div class="g_empty" id="hw_cont_gold"></div>
+                                <p class="g_artist" id="hw_cont_gold">Artist: MeiReiko</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="post">
-                    <div class="hoshi">
-                        <img src="hoshi.svg" class="g_hoshi">
+                    <div class="post" id="hw_sect">
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/waffle_rocky.html" class="g_title" id="hw_cont">Does this waffle rocky look delicious?</a></h5>
+                            <p class="g_detail" id="hw_cont">Thanks CookBaron for his masterpiece!!!</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont">10/14/2022</p>
+                                <div class="g_empty" id="hw_cont"></div>
+                                <p class="g_artist" id="hw_cont">Artist: CookBaron</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="g_info">
-                        <h5 class="g_title"><a href="gallery/rocky_bonk_jubby.html" class="g_title">Let's give Jubby a <em>surprise</em>...</a></h5>
-                        <p class="g_detail">Death from above: Bonk the cat over their head to give them a lethal hit!</p>
-                        <div class="g_misc">
-                            <p class="g_date">9/10/2022</p>
-                            <div class="g_empty"></div>
-                            <p class="g_artist">Artist: DSLmick</p>
+                    <div class="post" id="hw_sect">
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/inflation.html" class="g_title" id="hw_cont">My belly... Is inflating like balloon!</a></h5>
+                            <p class="g_detail" id="hw_cont">I will never... Eat meow chocolate cookie indiscriminantly again...</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont">10/10/2022</p>
+                                <div class="g_empty" id="hw_cont"></div>
+                                <p class="g_artist" id="hw_cont">Artist: うさぎ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post" id="hw_sect">
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/sun.html" class="g_title" id="hw_cont">Under the sun</a></h5>
+                            <p class="g_detail" id="hw_cont">What a nice day 030</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont">10/5/2022</p>
+                                <div class="g_empty" id="hw_cont"></div>
+                                <p class="g_artist" id="hw_cont">Artist: うさぎ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post" id="hw_sect">
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/rocky_bonk_jubby.html" class="g_title" id="hw_cont">Let's give Jubby a <em>surprise</em>...</a></h5>
+                            <p class="g_detail" id="hw_cont">Death from above: Bonk the cat over their head to give them a lethal hit!</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont">9/10/2022</p>
+                                <div class="g_empty" id="hw_cont"></div>
+                                <p class="g_artist" id="hw_cont">Artist: DSLmick</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post" id="hw_sect">
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/relaxing_rocky.html" class="g_title" id="hw_cont">Me relaxing would be like:</a></h5>
+                            <p class="g_detail" id="hw_cont">Chocolate meow cookie... More... =v=</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont">8/8/2022</p>
+                                <div class="g_empty" id="hw_cont"></div>
+                                <p class="g_artist" id="hw_cont">Artist: 薰凝</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post" id="hw_sect" >
+                        <div class="hoshi">
+                            <img src="hoshi_w.svg" class="g_hoshi">
+                        </div>
+                        <div class="g_info">
+                            <h5 class="g_title"><a href="gallery/rocky_is_here.html" class="g_title" id="hw_cont">Rocky is here!</a></h5>
+                            <p class="g_detail" id="hw_cont">Hi! This is Rocky! Nice to meet you all!, kitties in YaDian Land!</p>
+                            <div class="g_misc">
+                                <p class="g_date" id="hw_cont">8/8/2022</p>
+                                <div class="g_empty" id="hw_cont"></div>
+                                <p class="g_artist" id="hw_cont">Artist: 薰凝</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -82,9 +160,6 @@
             <div class="caution">
                 <p><strong>The DNAxCAT character body is copyrighted to DNAxCAT.</strong></p>
             </div>
-            <footer class="hf">
-                <p>Check out my <a href="https://twitter.com/kirbysfan2">Twitter</a></p>
-            </footer>
         </div>
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
         <script src="js/scripts.js"></script>  

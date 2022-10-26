@@ -1,0 +1,23 @@
+.l_main{
+    max-width: 768px;
+    margin: auto;
+}
+.l_pic{
+    width: 100%;
+}
+.l_disabled{
+    pointer-events: none;
+    color: gray;
+}
+.l_sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.l_select{
+    min-width: 256px;
+    width: 360px;
+    background-color: #40C4FF;
+    margin: 8px;
+    border-radius: 16px;
+}

@@ -44,6 +44,19 @@
 .sheet_long{
     height: 128px
 }
+.about_head{
+    font-size: 48px;
+    color: #01579B;
+}
+.box0{
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+    margin: 2px 4px 2px 4px;
+}
+.about_subhead{
+    color: #0277BD;
+    font-size: 14px;
+}
 @media (min-width: 768px) {
     .pfp_sheet{
         display:grid;
@@ -80,5 +93,11 @@
 
     .c_sheet{
         margin-right: 16px;
+    }
+    .sheet_last{
+        margin: 2px 16px 2px 16px
+    }
+    .box0{
+        margin: 2px 16px 2px 16px;
     }
 }

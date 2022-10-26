@@ -9,10 +9,11 @@
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="../style/navbar-fixed-left.css">
         <link rel="stylesheet" href="../style/about.css">
+        <link rel="stylesheet" href="../style/halloween.css">
     </head>
     <body class="text-center body" id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav" role="banner" style="background-color: #00B0FF">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav hw_nav" role="banner" style="background-color: #AB47BC">
+            <a class="navbar-brand js-scroll-trigger">
                 <span class="d-block d-lg-none margin-banner">歡迎來到洛奇的個人網站！</span>
                 <span class="d-none d-lg-block">
                     <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" src="../Rocky_By_薰凝.webp" />
@@ -20,49 +21,55 @@
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse special" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item"><a class="nav-link " href="index.html">主頁</a></li>
                     <li class="nav-item"><a class="nav-link " href="#">關於我</a></li>
                     <li class="nav-item"><a class="nav-link " href="story.html">故事</a></li>
                     <li class="nav-item"><a class="nav-link " href="gallery.html">相冊</a></li>
                 </ul>
+                <ul class="navbar-nav mr-auto mt-auto">
+                    <li class="nav-item"><a class="nav-link" href="../lang_new.html"><img src="../lang_switch.svg" class="lang_switch"> 語言：繁體中文</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img src="../Twitter.svg" class="twitter"></a></li>
+                </ul>
             </div>
         </nav>
         <div class="container-fluid p-0 correct">
-            <div class="hf">
-                <p>
-                    <a href="../lang.html">目前語言：繁體中文</a><br>
-                </p>
-            </div>
             <div class="content">
+                <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+                <div class="box0 textbox" id="hw_sect">
+                    <p class="about_head text-left" id="hw_cont"><strong>關於我</strong></p>
+                    <p class="about_subhead" id="hw_cont">想知道更多關於我的信息喵？來吧！</p>
+                </div>
                 <div class="info_sheet">
                     <div class="pfp_sheet">
                         <div class="rocky_info">
-                            <div class="sheet sheet_first">
-                                <p>姓名：洛奇</p>
+                            <div class="sheet sheet_first" id="hw_sheet">
+                                <p>喵名：洛奇</p>
                             </div>
-                            <div class="sheet">
+                            <div class="sheet" id="hw_sheet">
                                 <p>性別：♂</p>
                             </div>
-                            <div class="sheet">
+                            <div class="sheet" id="hw_sheet">
                                 <p>居住地：喵王國</p>
                             </div>
-                            <div class="sheet sheet_last_pcpfp">
+                            <div class="sheet sheet_last_pcpfp" id="hw_sheet">
                                 <p>最愛的食物：巧克力喵餅乾</p>
                             </div>
                         </div>
-                        <div class="rocky_pfp">
+                        <div class="rocky_pfp" id="hw_sheet">
                             <img src="../about/pfp.png" class="rocky_pic">
                         </div>
                     </div>
-                    <div class="sheet sheet_long c_sheet">
+                    <div class="sheet sheet_long c_sheet" id="hw_sheet">
                         <p>興趣愛好:<br>
                             學習編程，打BMS，整活<br>
                             以及。。。讓自己變得更可愛 <em style="color:gray">(我有时候还会變裝哦! Ow<)</em>
                         </p>
                     </div>
-                    <div class="sheet sheet_long c_sheet">
+                    <div class="sheet sheet_long c_sheet" id="hw_sheet">
                         <p>
                             最愛的顔色:<br>
                             <span style="color:#448AFF">天藍色</span>  <span style="color:#FFFFFF">白色</span>  <span style="color:#000000">黑色</span>  
@@ -70,16 +77,16 @@
                             <span style="color:gray; font-size:8px"><em>...我也喜歡像 <span style="color:#F472D0">粉紅色</span> ， <span style="color:#FFEB3B">黃色</span>這樣的颜色喵！</em></span>
                         </p>
                     </div>
-                    <div class="sheet c_sheet">
+                    <div class="sheet c_sheet" id="hw_sheet">
                         <p>職業：軟件工程師</p>
                     </div>
-                    <div class="sheet sheet_long c_sheet">
+                    <div class="sheet sheet_long c_sheet" id="hw_sheet">
                         <p>
                             編程語言：<br>
-                            Python, HTML, CSS
+                            C#, Python, HTML, CSS
                         </p>
                     </div>
-                    <div class="sheet sheet_last sheet_long">
+                    <div class="sheet sheet_last sheet_long" id="hw_sheet">
                         <p>留言：<br>
                             喵喵們，很高興見到你們！ >w<
                         </p>
@@ -89,9 +96,6 @@
             <div class="caution">
                 <p><strong>喵體版權歸九藏喵窩所有</strong></p>
             </div>
-            <footer class="hf">
-                <p>也來看看我的<a href="https://twitter.com/kirbysfan2">推特</a>吧！</p>
-            </footer>
         </div>
         <script src="../bootstrap/js/bootstrap.bundle.js"></script>
         <script src="../js/scripts.js"></script>  

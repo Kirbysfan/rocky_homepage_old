@@ -5,11 +5,12 @@
 .post{
     display: flex;
     background-color: #40C4FF;
-    min-height: 72px;
+    height: 160px;
     border-radius: 15px;
     margin: 4px 16px 4px 16px;
     align-items: center;
     flex-direction: row;
+    box-sizing: border-box;
 }
 .g_title{
     color: #01579B;
@@ -37,8 +38,37 @@
     flex-direction: row;
     font-size: 12px;
     color: #0091EA;
+    line-height: 12px;
 }
 
 .g_empty{
     flex-grow: 1;
+}
+.g_head{
+    font-size: 48px;
+    color: #01579B;
+}
+
+.g_subhead{
+    color: #0277BD;
+    font-size: 14px;
+}
+
+.box0{
+    margin: 2px 16px 2px 16px;
+    text-align: left;
+    padding: 24px 24px 24px 24px;
+}
+
+
+@media (min-width: 768px) {
+    .post{
+        width: 45%;
+        margin: 4px 16px 4px 16px ;
+    }
+    .gallery{
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

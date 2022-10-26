@@ -2,13 +2,13 @@ body {
   padding-top: 90px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   body {
     padding-top: 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   body {
     margin-left: 320px;
   }
@@ -22,7 +22,7 @@ body {
   z-index: 1030;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar.fixed-left {
     bottom: 0;
     width: 320px;
@@ -46,7 +46,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar.fixed-left {
     right: auto;
   }
