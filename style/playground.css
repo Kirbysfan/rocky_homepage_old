@@ -1,0 +1,42 @@
+.pg_header{
+    background-color:#40C4FF;
+    text-align: left;
+    border-radius: 15px;
+    padding: 24px 24px 24px 24px;
+    margin: 2px 16px 4px 16px;
+}
+.pg_head{
+    font-size: 48px;
+    color: #01579B;
+}
+
+.pg_subhead{
+    color: #0277BD;
+    font-size: 14px;
+}
+
+.story{
+    background-color: #40C4FF;
+    text-align: left;
+    border-radius: 15px;
+    padding: 24px 24px 24px 24px;
+    margin: 4px 16px 4px 16px;
+    color: #01579B;
+}
+.pg_sector{
+    display: flex;
+    text-align: left;
+    background-color: #40C4FF;
+    color: #01579B;
+    min-height: 72px;
+    border-radius: 15px;
+    margin: 8px 16px 4px 16px;
+    align-items: center;
+}
+.hoshi{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.s_hoshi{
+    width: 48px;
+}

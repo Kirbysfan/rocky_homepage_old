@@ -24,11 +24,11 @@ body{
 #hw_p_info{
     background-color: #AB47BC !important;
 }
-#hw_sect_gold{
+#hw_sect_hw{
     background: rgba(255,248,225,0.5);
     border: 8px solid rgba(255,236,179,0.5);
 }
-#hw_cont_gold{
+#hw_cont_hw{
     color: rgba(255,202,40,1);
 }
 #halloween_text{
@@ -40,4 +40,11 @@ body{
 #btn-back-to-top{
     background-color: #AB47BC !important;
     border-color: #AB47BC !important;
+}
+@font-face {
+    font-family: NK;
+    src: url(../halloween/NaikaiFont-Regular.ttf);
+}
+*{
+    font-family: NK !important;
 }

@@ -1,0 +1,18 @@
+.card{
+    border: #5C6BC0 !important;
+}
+.card-header{
+    background-color: #3F51B5 !important;
+}
+.p_info, .p_detail, .p_o_custom, .p_misc, #hw_p_info{
+    background-color: #283593 !important;
+}
+body{
+    background-color: initial;
+    background-image: linear-gradient(to bottom, #1A237E, #0D47A1) !important;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p, .card-header{
+    color: #E1F5FE !important;
+}
