@@ -161,7 +161,7 @@
 .twitter{
     width: 36px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .special{
         height: 100% !important;
     }
