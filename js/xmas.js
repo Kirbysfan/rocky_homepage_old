@@ -22,8 +22,19 @@ function xmas_easter() {
   var xmas_w_r = Math.floor(Math.random() * 5);
   var easter = document.getElementById("xmas_easter");
   var welcome = document.getElementById("welcome");
+  var caption = document.getElementById("fc");
+  let lang = document.documentElement.lang.toLowerCase();
   if (xmas_r === 1 || xmas_r === 2) {
     easter.src = '../xmas/xmas_tree_rocky_tp.png';
+    if (lang === "en") {
+      caption.innerHTML = "Artwork by 土星喵";
+    }
+    else if (lang === "zh-cn") {
+      caption.innerHTML = "喵绘师：土星喵";
+    }
+    else if (lang === "zh-tw") {
+      caption.innerHTML = "喵繪師：土星喵";
+    }
   }
   if (xmas_w_r === 1) {
     welcome.src = '../xmas/welcome_xmas.png';
