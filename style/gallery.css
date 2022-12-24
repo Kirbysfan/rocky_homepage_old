@@ -59,7 +59,10 @@
     text-align: left;
     padding: 24px 24px 24px 24px;
 }
-
+.gallery_subhead{
+    color: #0277BD;
+    font-size: 14px;
+}
 
 @media (min-width: 768px) {
     .post{

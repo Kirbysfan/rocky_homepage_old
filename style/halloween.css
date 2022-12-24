@@ -1,50 +1,63 @@
-body{
+body {
     background-color: initial;
-    background-image: linear-gradient(to bottom,purple,orange);
+    background-image: linear-gradient(to bottom, purple, orange);
     background-attachment: fixed;
     background-size: cover;
 }
-#hw_sect{
-    background: rgba(238,238,238,0.5);
+
+#hw_sect {
+    background: rgba(238, 238, 238, 0.5);
     border: 8px solid rgba(250, 250, 250, 0.5);
 }
-#hw_cont{
+
+#hw_cont {
     color: snow;
 }
-#hw_sheet{
-    background: rgba(238,238,238,0.5);
+
+#hw_sheet {
+    background: rgba(238, 238, 238, 0.5);
     color: snow;
 }
-#hw_card{
+
+#hw_card {
     border: #F3E5F5 !important;
 }
-#hw_card_header{
+
+#hw_card_header {
     background-color: #CE93D8 !important;
 }
-#hw_p_info{
+
+#hw_p_info {
     background-color: #AB47BC !important;
 }
-#hw_sect_hw{
-    background: rgba(255,248,225,0.5);
-    border: 8px solid rgba(255,236,179,0.5);
+
+#hw_sect_hw {
+    background: rgba(255, 248, 225, 0.5);
+    border: 8px solid rgba(255, 236, 179, 0.5);
 }
-#hw_cont_hw{
-    color: rgba(255,202,40,1);
+
+#hw_cont_hw {
+    color: rgba(255, 202, 40, 1);
 }
-#halloween_text{
+
+#halloween_text {
     color: snow;
 }
-.hw_kmj{
+
+.hw_kmj {
     font-size: 36px;
 }
-#btn-back-to-top{
+
+#btn-back-to-top {
     background-color: #AB47BC !important;
     border-color: #AB47BC !important;
 }
+
 @font-face {
     font-family: NK;
     src: url(../halloween/NaikaiFont-Regular.ttf);
 }
-*{
+
+* {
     font-family: NK !important;
 }

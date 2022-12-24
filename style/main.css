@@ -8,46 +8,46 @@
     src: url(../ProductSans-Bold.ttf);
 }
 
-.body{
+.body {
     background-color: #80D8FF;
-    display:flex;
+    display: flex;
 }
 
-*{
+* {
     font-family: ProductSans !important;
 }
 
-.hf{
+.hf {
     background-color: #B3E5FC;
     border-radius: 15px;
     padding: 0 5% 0 5%;
     clear: right;
 }
 
-.content{
+.content {
     justify-content: center;
     flex-wrap: wrap-reverse;
 }
 
-.welcome{
+.welcome {
     width: fit-content;
     max-width: 100%;
 }
 
-.p1-1{
+.p1-1 {
     width: 32%;
 }
 
-.p1-1d{
+.p1-1d {
     font-size: small;
     margin-bottom: 16px;
 }
 
-.caution{
+.caution {
     clear: right;
 }
 
-.box0{
+.box0 {
     background-color: #40C4FF;
     height: auto;
     border-radius: 15px;
@@ -55,7 +55,7 @@
     padding: 2px 0 2px 0;
 }
 
-.box1{
+.box1 {
     height: 320px;
     max-width: 720px;
     justify-content: center;
@@ -63,11 +63,11 @@
     margin: 15px;
 }
 
-.hoshi_menu{
+.hoshi_menu {
     width: 32px
 }
 
-.box2{
+.box2 {
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -79,7 +79,7 @@
     padding: 24px 0 24px 0;
 }
 
-.box3{
+.box3 {
     display: flex;
     flex-direction: row;
     font-size: 32px;
@@ -87,97 +87,117 @@
     font-family: ProductSansBold;
 }
 
-.text{
+.text {
     text-align: left;
     margin: 24px 24px 24px 24px;
 }
-.a_menu{
+
+.a_menu {
     color: #00B0FF;
 }
 
-.textbox{
+.textbox {
     align-items: flex-start;
 }
 
-.rocky_scale{
+.rocky_scale {
     width: 64%;
 }
 
-.margin-banner{
+.margin-banner {
     margin-left: 24px;
 }
 
-.greeting{
+.greeting {
     font-style: ProductSansBold;
     font-size: 52px;
     color: #0277BD;
 }
-.correct{
+
+.correct {
     flex-direction: column;
     min-height: fit-content;
 }
 
-.gap{
+.gap {
     font-size: 16px;
 }
 
-.greeting1{
+.greeting1 {
     font-size: 16px;
     color: #0091EA;
 }
 
-.greeting2{
+.greeting2 {
     font-size: 24px;
     color: #0091EA;
 }
 
-.hideit{
+.hideit {
     font-size: 8px;
     color: gray;
 }
-.lang_selection{
+
+.lang_selection {
     max-width: 768px;
     margin: auto;
 }
-.c_button{
+
+.c_button {
     width: 72px;
     height: 48px;
 }
-.c_button.bt1{
+
+.c_button.bt1 {
     margin: 0 3% 0 0;
 }
-.c_button.bt2{
+
+.c_button.bt2 {
     margin: 0 3% 0 3%;
 }
-.c_button.bt3{
+
+.c_button.bt3 {
     margin: 0 0 0 3%;
 }
-.r_space{
+
+.r_space {
     flex-grow: 1;
 }
-.lang_switch{
+
+.lang_switch {
     width: 24px;
 }
-.twitter{
+
+.twitter {
     width: 36px;
 }
+
+.h_line {
+    border: 4px solid white;
+    border-radius: 4px;
+}
+
 @media (min-width: 992px) {
-    .special{
+    .special {
         height: 100% !important;
     }
 }
+
 @media (max-width: 768px) {
-    .c_button.bt1{
+    .c_button.bt1 {
         margin: 1% 1% 1% 0;
     }
-    .c_button.bt2{
+
+    .c_button.bt2 {
         margin: 1% 1% 1% 1%;
     }
-    .c_button.bt3{
+
+    .c_button.bt3 {
         margin: 1% 0 1% 1%;
     }
 }
-.note{
+
+.note {
     max-width: 384px;
     border: solid 2px #4E342E;
     background-color: #FFF9C4;
@@ -186,25 +206,98 @@
     min-height: 384px;
     padding: 12px;
 }
-.note p{
+
+.note p {
     margin-left: 16px;
     line-height: 32px;
     text-align: center;
 }
-.note ul li{
+
+.note ul li {
     line-height: 32px;
     font-size: 14px;
     font-family: ProductSans;
 }
+
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     display: none;
+    width: 56px;
+    height: 56px;
 }
-.top{
+
+.top {
     background-color: #0091EA !important;
     color: snow !important;
     border-radius: 50% !important;
     border-color: #00B0FF !important;
+}
+
+.top>i {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.new_header {
+    text-align: center;
+    margin: 32px 16px;
+}
+
+.hoshi_title {
+    height: 48px;
+    margin: 0 8px;
+}
+
+#Countdown {
+    color: snow;
+}
+
+.p_outer {
+    border-radius: 16px;
+    border: 2px solid snow;
+    height: 0;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#PicChange {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.c_button {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_button>* {
+    background-color: rgba(238, 238, 238, 0.5);
+    height: 100%;
+    font-size: 24px;
+    padding: 16px;
+}
+
+#c_button>div {
+    padding-top: 25%;
+    user-select: none;
+}
+
+#c_button>div>p {
+    display: inline-block;
+}
+
+#p_dt {
+    font-size: smaller;
+    text-align: center;
 }

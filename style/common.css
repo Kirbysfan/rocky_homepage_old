@@ -1,34 +1,59 @@
-body{
+body {
     background-color: initial;
     background-image: linear-gradient(to bottom, #039BE5, #B3E5FC);
     background-attachment: fixed;
     background-size: cover;
 }
-#hw_sect{
-    background: rgba(238,238,238,0.5);
+
+#hw_sect {
+    background: rgba(238, 238, 238, 0.5);
     border: 8px solid rgba(250, 250, 250, 0.5);
 }
-#hw_cont{
+
+#hw_cont {
     color: snow;
 }
-#hw_sheet{
-    background: rgba(238,238,238,0.5);
+
+#hw_sheet {
+    background: rgba(238, 238, 238, 0.5);
     color: snow;
 }
-#hw_sect_hw{
+
+#hw_sect_hw {
     background: rgba(206, 147, 216, 0.5);
     border: 8px solid rgba(156, 39, 176, 0.5);
 }
-#hw_cont_hw{
+
+#hw_cont_hw {
     color: rgba(156, 39, 176, 1);
 }
-#halloween_text{
+
+#halloween_text {
     color: snow;
 }
-.hw_kmj{
+
+.hw_kmj {
     font-size: 36px;
 }
-#btn-back-to-top{
+
+#btn-back-to-top {
     background-color: #1E88E5 !important;
     border-color: #1E88E5 !important;
+}
+
+#hw_sect_xmas {
+    background: rgba(255, 248, 225, 0.5);
+    border: 8px solid rgba(255, 236, 179, 0.5);
+}
+
+#hw_sect_xmas>*,
+#hw_sect_xmas>*>*,
+#hw_sect_xmas>*>*>* {
+    color: rgba(255, 202, 40, 1);
+}
+
+#hw_sect>*,
+#hw_sect>*>*,
+#hw_sect>*>*>* {
+    color: snow;
 }

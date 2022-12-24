@@ -18,13 +18,13 @@
 
 .rocky_pfp{
     background-color: #40c4FF;
-    width: auto;
+    height: 256px;
     border-radius: 8px;
     margin: 4px 4px 4px 4px;
 }
 
 .rocky_pic{
-    width: fit-content;
+    width: 256px;
 }
 
 .sheet{
@@ -75,7 +75,7 @@
     }
 
     .rocky_pic{
-        width: 240px;
+        width: 100%;
         align-items: flex-end;
     }
 

@@ -1,196 +1,306 @@
 <!doctype html>
 <html lang="zh-TW">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-        <title>相冊-洛奇的個人網站</title>
-        <link rel="stylesheet" href="../style/main.css">
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="../style/navbar-fixed-left.css">
-        <link rel="stylesheet" href="../style/gallery.css">
-        <link rel="stylesheet" href="../style/common.css">
-    </head>
-    <body class="text-center body" id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav hw_nav" role="banner" style="background-color: #1E88E5">
-            <a class="navbar-brand js-scroll-trigger">
-                <span class="d-block d-lg-none margin-banner">歡迎來到洛奇的個人網站！!</span>
-                <span class="d-none d-lg-block">
-                    <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" src="../Rocky_By_薰凝.webp" />
-                    <figcaption class="p1-1d"><em>喵繪師：薰凝</em></figcaption>
-                </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse special" id="navbarResponsive">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item"><a class="nav-link " href="index.html">主頁</a></li>
-                    <li class="nav-item"><a class="nav-link " href="about.html">關於我</a></li>
-                    <li class="nav-item"><a class="nav-link " href="story.html">故事</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">相冊</a></li>
-                    <li class="nav-item"><a class="nav-link " href="playground.html">游園地</a></li>
-                </ul>
-                <ul class="navbar-nav mr-auto mt-auto">
-                    <li class="nav-item"><a class="nav-link" href="../lang_new.html"><img src="../lang_switch.svg" class="lang_switch"> 語言：繁體中文</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img src="../Twitter.svg" class="twitter"></a></li>
-                </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title>相冊-洛奇的個人網站</title>
+    <link rel="stylesheet" href="../style/main.css">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/navbar-fixed-left.css">
+    <link rel="stylesheet" href="../style/gallery.css">
+    <link rel="stylesheet" href="../style/xmas.css">
+</head>
+
+<body class="text-center body" id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav hw_nav" role="banner"
+        style="background-color: #B71C1C">
+        <a class="navbar-brand js-scroll-trigger">
+            <span class="d-block d-lg-none margin-banner">歡迎來到洛奇的個人網站！!</span>
+            <span class="d-none d-lg-block">
+                <p id="xmas_greet" class="xmas_greet">&nbsp;</p>
+                <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" onmousemove="hi()" onmouseout="hi_()"
+                    src="../xmas/snowman_rocky_tp.webp" id="xmas_easter" />
+                <figcaption class="p1-1d"><em>喵繪師：薰凝</em></figcaption>
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse special" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item"><a class="nav-link " href="index.html">主頁</a></li>
+                <li class="nav-item"><a class="nav-link " href="about.html">關於我</a></li>
+                <li class="nav-item"><a class="nav-link " href="story.html">故事</a></li>
+                <li class="nav-item"><a class="nav-link " href="#">相冊</a></li>
+                <li class="nav-item"><a class="nav-link " href="playground.html">游園地</a></li>
+            </ul>
+            <ul class="navbar-nav mr-auto mt-auto">
+                <li class="nav-item"><a class="nav-link" href="../lang_new.html"><img src="../icons/lang_switch.svg"
+                            class="lang_switch"> 語言：繁體中文</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img
+                            src="../icons/Twitter.svg" class="twitter"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid p-0 correct">
+        <div class="content">
+            <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
+                <i class="fas fa-arrow-up">▲</i>
+            </button>
+            <div class="new_header">
+                <p class="g_head" id="hw_cont"><img src="../icons/hoshi_w.svg"
+                        class="hoshi_title"><strong>相冊</strong><img src="../icons/hoshi_w.svg" class="hoshi_title">
+                </p>
+                <p class="gallery_subhead" id="hw_cont">這裡記錄着我在亞甸大陸的回憶！</p>
+                <hr class="h_line" />
             </div>
-        </nav>
-        <div class="container-fluid p-0 correct">
-            <div class="content">
-                <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
-                    <i class="fas fa-arrow-up"></i>
-                </button>
-                <div class="box0" id="hw_sect">
-                    <p class="g_head" id="hw_cont"><strong>相冊</strong></p>
-                </div>
-                <div class="gallery">
-                    <div class="post" id="hw_sect_hw">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/pumkin.html" class="g_title" id="hw_cont_hw">遲來的大南瓜</a></h5>
-                            <p class="g_detail" id="hw_cont_hw">有可能明年萬聖節我就會這麽打扮哦！</p>
-                            <div class="g_misc">
-                                <p class="g_date" id="hw_cont_hw">2022年11月6日</p>
-                                <div class="g_empty" id="hw_cont_hw"></div>
-                                <p class="g_artist" id="hw_cont_hw">喵繪師：暮璃</p>
-                            </div>
-                        </div>
+            <div class="gallery">
+                <div class="post" id="hw_sect_xmas">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
                     </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/moon.html" class="g_title" id="hw_cont">小小洛奇趴在月亮上睡覺。。。</a></h5>
-                            <p class="g_detail" id="hw_cont">喵嗚。。。希望你也能睡個好覺！</p>
-                            <div class="g_misc">
-                                <p class="g_date" id="hw_cont">2022年11月4日</p>
-                                <div class="g_empty" id="hw_cont"></div>
-                                <p class="g_artist" id="hw_cont">喵繪師：尺玉Chiyu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/angel_rocky.html" class="g_title" id="hw_cont">是天使洛奇哦！</a></h5>
-                            <p class="g_detail" id="hw_cont">好奇妙的禮物！！！</p>
-                            <div class="g_misc" id="hw_cont">
-                                <p class="g_date">2022年10月25日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">喵繪師: 土星喵</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/waffle_rocky.html" class="g_title" id="hw_cont">這洛奇華夫餅看起來怎麽樣？</a></h5>
-                            <p class="g_detail" id="hw_cont">感謝煮熟男爵的傑作！</p>
-                            <div class="g_misc" id="hw_cont">
-                                <p class="g_date">2022年10月14日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">喵繪師: 煮熟男爵</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/sun.html" class="g_title" id="hw_cont">我的肚子。。。像氣球一樣鼓起來了！</a></h5>
-                            <p class="g_detail" id="hw_cont">我再也不亂吃東西了</p>
-                            <div class="g_misc" id="hw_cont">
-                                <p class="g_date">2022年10月10日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">繪師: うさぎ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect_hw">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/magician_rocky.html" class="g_title" id="hw_cont_hw">喵呼！是魔法師洛奇哦！！！</a></h5>
-                            <p class="g_detail" id="hw_cont_hw">大家萬聖節快樂喵！</p>
-                            <div class="g_misc" id="hw_cont_hw">
-                                <p class="g_date">2022年10月5日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">喵繪師: 土星喵</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/sun.html" class="g_title" id="hw_cont">在陽光下</a></h5>
-                            <p class="g_detail" id="hw_cont">多麽美好的一天啊 030</p>
-                            <div class="g_misc" id="hw_cont">
-                                <p class="g_date">2022年10月5日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">繪師: うさぎ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/rocky_bonk_jubby.html" class="g_title" id="hw_cont">給朱比一個<em>驚喜</em>吧...</a></h5>
-                            <p class="g_detail" id="hw_cont">死亡從天而降：給予喵喵從天而降一Bonk以給予其致命打擊！</p>
-                            <div class="g_misc" id="hw_cont">
-                                <p class="g_date">2022年9月10日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">喵繪師: DSLmick</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/relaxing_rocky.html" class="g_title" id="hw_cont">我放鬆時或許就是這樣：</a></h5>
-                            <p class="g_detail" id="hw_cont">巧克力喵餅乾。。。再來一點。。。 =v=</p>
-                            <div class="g_misc" id="hw_cont">
-                                <p class="g_date">2022年8月28日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">喵繪師: 薰凝</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post" id="hw_sect">
-                        <div class="hoshi">
-                            <img src="../hoshi_w.svg" class="g_hoshi">
-                        </div>
-                        <div class="g_info">
-                            <h5 class="g_title"><a href="gallery/rocky_is_here.html" class="g_title" id="hw_cont">是洛奇哦！</a></h5>
-                            <p class="g_detail" id="hw_cont">你好！我是洛奇！亞甸大陸的喵喵們，很高興見到你們！</p>
-                            <div class="g_misc" id="hw_cont">
-                                <p class="g_date">2022年8月8日</p>
-                                <div class="g_empty"></div>
-                                <p class="g_artist">喵繪師: 薰凝</p>
-                            </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/xmas_tree.html" class="g_title">Merry Christmas!!!</a>
+                        </h5>
+                        <p class="g_detail">&nbsp;</p>
+                        <div class="g_misc">
+                            <p class="g_date">2022年12月16日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師：土星喵</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="caution">
-                <p><strong>喵體版權歸九藏喵窩所有</strong></p>
+                <div class="post" id="hw_sect_xmas">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/rocky_for_xmas.html" class="g_title">洛奇在為聖誕節作準備哦！</a></h5>
+                        <p class="g_detail">這個聖誕節，我願與你們一起度過！</p>
+                        <div class="g_misc">
+                            <p class="g_date">2022年12月14日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師：猫铃</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/SL_Bday_2022.html" class="g_title">霜凛生日快樂！！！</a></h5>
+                        <p class="g_detail">他看起來很喜歡我的驚喜耶！</p>
+                        <div class="g_misc">
+                            <p class="g_date">2022年12月19日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師：善善喵</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/snowball.html" class="g_title">哪裡飛來的。。。*POW!*</a></h5>
+                        <p class="g_detail">洛奇被善善的雪球擊中</p>
+                        <div class="g_misc">
+                            <p class="g_date">2022年11月29日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師：善善喵</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect_xmas">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/snow_party.html" class="g_title">與秀樹喵在雪原玩耍中！</a></h5>
+                        <p class="g_detail">真的好有趣！！！</p>
+                        <div class="g_misc">
+                            <p class="g_date">2022年11月15日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師：糖悠悠</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect_xmas">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/XMASRO~1.HTML" class="g_title">聖誕洛奇，但是在初代喵體形態</a></h5>
+                        <p class="g_detail">走嘍！去找洛奇！</p>
+                        <div class="g_misc">
+                            <p class="g_date">2022年11月15日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師：貓鈴</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect_hw">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/pumkin.html" class="g_title" id="hw_cont_hw">遲來的大南瓜</a>
+                        </h5>
+                        <p class="g_detail" id="hw_cont_hw">有可能明年萬聖節我就會這麽打扮哦！</p>
+                        <div class="g_misc">
+                            <p class="g_date" id="hw_cont_hw">2022年11月6日</p>
+                            <div class="g_empty" id="hw_cont_hw"></div>
+                            <p class="g_artist" id="hw_cont_hw">喵繪師：暮璃</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/moon.html" class="g_title" id="hw_cont">小小洛奇趴在月亮上睡覺。。。</a>
+                        </h5>
+                        <p class="g_detail" id="hw_cont">喵嗚。。。希望你也能睡個好覺！</p>
+                        <div class="g_misc">
+                            <p class="g_date" id="hw_cont">2022年11月4日</p>
+                            <div class="g_empty" id="hw_cont"></div>
+                            <p class="g_artist" id="hw_cont">喵繪師：尺玉Chiyu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/angel_rocky.html" class="g_title" id="hw_cont">是天使洛奇哦！</a>
+                        </h5>
+                        <p class="g_detail" id="hw_cont">好奇妙的禮物！！！</p>
+                        <div class="g_misc" id="hw_cont">
+                            <p class="g_date">2022年10月25日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師: 土星喵</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/waffle_rocky.html" class="g_title"
+                                id="hw_cont">這洛奇華夫餅看起來怎麽樣？</a></h5>
+                        <p class="g_detail" id="hw_cont">感謝煮熟男爵的傑作！</p>
+                        <div class="g_misc" id="hw_cont">
+                            <p class="g_date">2022年10月14日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師: 煮熟男爵</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/sun.html" class="g_title"
+                                id="hw_cont">我的肚子。。。像氣球一樣鼓起來了！</a></h5>
+                        <p class="g_detail" id="hw_cont">我再也不亂吃東西了</p>
+                        <div class="g_misc" id="hw_cont">
+                            <p class="g_date">2022年10月10日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">繪師: うさぎ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect_hw">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/magician_rocky.html" class="g_title"
+                                id="hw_cont_hw">喵呼！是魔法師洛奇哦！！！</a></h5>
+                        <p class="g_detail" id="hw_cont_hw">大家萬聖節快樂喵！</p>
+                        <div class="g_misc" id="hw_cont_hw">
+                            <p class="g_date">2022年10月5日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師: 土星喵</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/sun.html" class="g_title" id="hw_cont">在陽光下</a></h5>
+                        <p class="g_detail" id="hw_cont">多麽美好的一天啊 030</p>
+                        <div class="g_misc" id="hw_cont">
+                            <p class="g_date">2022年10月5日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">繪師: うさぎ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/rocky_bonk_jubby.html" class="g_title"
+                                id="hw_cont">給朱比一個<em>驚喜</em>吧...</a></h5>
+                        <p class="g_detail" id="hw_cont">死亡從天而降：給予喵喵從天而降一Bonk以給予其致命打擊！</p>
+                        <div class="g_misc" id="hw_cont">
+                            <p class="g_date">2022年9月10日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師: DSLmick</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/relaxing_rocky.html" class="g_title"
+                                id="hw_cont">我放鬆時或許就是這樣：</a></h5>
+                        <p class="g_detail" id="hw_cont">巧克力喵餅乾。。。再來一點。。。 =v=</p>
+                        <div class="g_misc" id="hw_cont">
+                            <p class="g_date">2022年8月28日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師: 薰凝</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post" id="hw_sect">
+                    <div class="hoshi">
+                        <img src="../icons/hoshi_w.svg" class="g_hoshi">
+                    </div>
+                    <div class="g_info">
+                        <h5 class="g_title"><a href="gallery/rocky_is_here.html" class="g_title" id="hw_cont">是洛奇哦！</a>
+                        </h5>
+                        <p class="g_detail" id="hw_cont">你好！我是洛奇！亞甸大陸的喵喵們，很高興見到你們！</p>
+                        <div class="g_misc" id="hw_cont">
+                            <p class="g_date">2022年8月8日</p>
+                            <div class="g_empty"></div>
+                            <p class="g_artist">喵繪師: 薰凝</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <script src="../bootstrap/js/bootstrap.bundle.js"></script>
-        <script src="../js/scripts.js"></script>  
+        <div class="caution">
+            <p><strong>喵體版權歸九藏喵窩所有</strong></p>
+        </div>
+    </div>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/xmas_non_index.js"></script>
+
     <body>
+
 </html>

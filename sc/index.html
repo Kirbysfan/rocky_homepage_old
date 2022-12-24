@@ -1,61 +1,87 @@
 <!doctype html>
 <html lang="zh-CN">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-        <title>欢迎来到洛奇的个人网站！</title>
-        <link rel="stylesheet" href="../style/main.css">
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="../style/navbar-fixed-left.css">
-        <link rel="stylesheet" href="../style/common.css">
-    </head>
-    <body class="text-center body" id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav hw_nav" role="banner" style="background-color: #1E88E5">
-            <a class="navbar-brand js-scroll-trigger">
-                <span class="d-block d-lg-none margin-banner">欢迎来到洛奇的个人网站！</span>
-                <span class="d-none d-lg-block">
-                    <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" src="../Rocky_By_薰凝.webp" />
-                    <figcaption class="p1-1d"><em>喵绘师：薰凝</em></figcaption>
-                </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse special" id="navbarResponsive">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item"><a class="nav-link " href="#">主页</a></li>
-                    <li class="nav-item"><a class="nav-link " href="about.html">关于我</a></li>
-                    <li class="nav-item"><a class="nav-link " href="story.html">故事</a></li>
-                    <li class="nav-item"><a class="nav-link " href="gallery.html">相册</a></li>
-                    <li class="nav-item"><a class="nav-link " href="playground.html">游园地</a></li>
-                </ul>
-                <ul class="navbar-nav mr-auto mt-auto">
-                    <li class="nav-item"><a class="nav-link" href="../lang_new.html"><img src="../lang_switch.svg" class="lang_switch"> 语言：简体中文</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img src="../Twitter.svg" class="twitter"></a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container-fluid p-0 correct">
-            <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
-                <i class="fas fa-arrow-up"></i>
-            </button>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title>欢迎来到洛奇的个人网站！</title>
+    <link rel="stylesheet" href="../style/main.css">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/navbar-fixed-left.css">
+    <link rel="stylesheet" href="../style/xmas.css">
+</head>
+
+<body class="text-center body" id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-left" id="sideNav hw_nav" role="banner"
+        style="background-color: #B71C1C">
+        <a class="navbar-brand js-scroll-trigger">
+            <span class="d-block d-lg-none margin-banner">欢迎来到洛奇的个人网站！</span>
+            <span class="d-none d-lg-block">
+                <p id="xmas_greet" class="xmas_greet">&nbsp;</p>
+                <p id="xmas_greet" class="xmas_greet">&nbsp;</p>
+                <img class="img-fluid img-profile mx-auto mb-2 rocky_scale" onmousemove="hi()" onmouseout="hi_()"
+                    src="../xmas/snowman_rocky_tp.webp" id="xmas_easter" />
+                <figcaption class="p1-1d"><em>喵绘师：糖悠悠</em></figcaption>
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse special" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item"><a class="nav-link " href="#">主页</a></li>
+                <li class="nav-item"><a class="nav-link " href="about.html">关于我</a></li>
+                <li class="nav-item"><a class="nav-link " href="story.html">故事</a></li>
+                <li class="nav-item"><a class="nav-link " href="gallery.html">相册</a></li>
+                <li class="nav-item"><a class="nav-link " href="playground.html">游园地</a></li>
+            </ul>
+            <ul class="navbar-nav mr-auto mt-auto">
+                <li class="nav-item"><a class="nav-link" href="../lang_new.html"><img src="../icons/lang_switch.svg"
+                            class="lang_switch"> 语言：简体中文</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://twitter.com/kirbysfan2"><img
+                            src="../icons/Twitter.svg" class="twitter"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid p-0 correct">
+        <button type="button" class="btn top btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up">▲</i>
+        </button>
+        <div>
+            <img src="../xmas/welcome_xmas_a.png" class="welcome" id="welcome">
+        </div>
+        <h1 id="Countdown">
+
+        </h1>
+        <div class="content">
             <div>
-                <img src="../welcome_new.png" class="welcome">
-            </div>
-            <div class="content">
-                <div>
-                    <div class="box0 textbox" id="hw_sect">
-                        <div class="text">
-                            <p class="greeting" id="hw_cont"><strong>是洛奇哦！！！</strong></p>
-                            <p class="greeting1" id="hw_cont"><strong>一只热爱科技，而且还想变得更可爱的可爱喵喵！</strong></p>
-                            <p class="gap"></p><br>
-                            <p class="greeting2" id="hw_cont">
-                                喵呼！我是洛奇！<br>
-                                很高兴见到大家！！！<br>
-                            </p>
-                            <p class="greeting1" id="hw_cont">
-                                你现在在我的个人网站里，那么，为什么不来逛逛呢？ （*＾-＾*）
-                                <p class="hideit">(只要别使我生气就行...)</p>
-                            </p>
+                <div class="box0 textbox" id="hw_sect">
+                    <div class="text">
+                        <p class="greeting" id="hw_cont"><strong>是洛奇哦！！！</strong></p>
+                        <p class="greeting1" id="hw_cont"><strong>一只热爱科技，而且还想变得更可爱的可爱喵喵！</strong></p>
+                        <div class="p_outer" onmouseover="showButton()" onmouseleave="hideButton()">
+                            <div class="c_button" id="c_button">
+                                <div onclick="change_minus()">
+                                    <p>
+                                        < </p>
+                                </div>
+                                <div onclick="change()">
+                                    <p>></p>
+                                </div>
+                            </div>
+                            <img id="PicChange" src="../ss/1.png">
+                        </div>
+                        <p id="p_dt">喵绘师：语婳</p>
+                        <p class="gap"></p><br>
+                        <p class="greeting2" id="hw_cont">
+                            喵呼！我是洛奇！<br>
+                            很高兴见到大家！！！<br>
+                        </p>
+                        <p class="greeting1" id="hw_cont">
+                            你现在在我的个人网站里，那么，为什么不来逛逛呢？ （*＾-＾*）
+                        <p class="hideit">(只要别使我生气就行...)</p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -65,6 +91,10 @@
         </div>
         <script src="../bootstrap/js/bootstrap.bundle.js"></script>
         <script src="../js/scripts.js"></script>
-        <script src="../js/halloween-sc.js"></script>  
-    <body>
+        <script src="../js/halloween-sc.js"></script>
+        <script src="../js/xmas.js"></script>
+        <script src="../js/picChange.js"></script>
+
+        <body>
+
 </html>

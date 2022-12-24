@@ -1,21 +1,22 @@
-.pg_header{
-    background-color:#40C4FF;
+.pg_header {
+    background-color: #40C4FF;
     text-align: left;
     border-radius: 15px;
     padding: 24px 24px 24px 24px;
     margin: 2px 16px 4px 16px;
 }
-.pg_head{
+
+.pg_head {
     font-size: 48px;
     color: #01579B;
 }
 
-.pg_subhead{
+.pg_subhead {
     color: #0277BD;
     font-size: 14px;
 }
 
-.story{
+.story {
     background-color: #40C4FF;
     text-align: left;
     border-radius: 15px;
@@ -23,7 +24,8 @@
     margin: 4px 16px 4px 16px;
     color: #01579B;
 }
-.pg_sector{
+
+.pg_sector {
     display: flex;
     text-align: left;
     background-color: #40C4FF;
@@ -33,10 +35,17 @@
     margin: 8px 16px 4px 16px;
     align-items: center;
 }
-.hoshi{
+
+.hoshi {
     margin-right: 16px;
     margin-left: 16px;
 }
-.s_hoshi{
+
+.s_hoshi {
     width: 48px;
+}
+
+.p_head {
+    font-size: 48px;
+    color: #01579B;
 }
