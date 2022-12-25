@@ -136,7 +136,7 @@ function xmas_easter() {
    * @return {Void}
    */
   function setup() {
-    var number = 256,
+    var number = 64,
       particle,
       i;
 
