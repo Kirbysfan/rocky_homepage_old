@@ -166,7 +166,7 @@ function nycountdown() {
       + hours + "h " + minutes + "m " + seconds + "s Until 2023!";
     if (t < 0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "<marquee>Happy New Year!!!</marquee>";
+      document.getElementById("Countdown").innerHTML = "<marquee>Happy New Year!!!</marquee>";
     }
   }
   else if (lang === "zh-cn") {
@@ -174,7 +174,7 @@ function nycountdown() {
       + hours + "小时" + minutes + "分" + seconds + "秒！";
     if (t < 0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "<marquee>新年快乐！！！</marquee>";
+      document.getElementById("Countdown").innerHTML = "<marquee>新年快乐！！！</marquee>";
     }
   }
   else if (lang === "zh-tw") {
@@ -182,7 +182,7 @@ function nycountdown() {
       + hours + "小時" + minutes + "分" + seconds + "秒！";
     if (t < 0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "<marquee>新年快樂！！！</marquee>";
+      document.getElementById("Countdown").innerHTML = "<marquee>新年快樂！！！</marquee>";
     }
   }
 }
