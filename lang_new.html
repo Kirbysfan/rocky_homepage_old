@@ -34,14 +34,34 @@
                 <p id="hw_cont">ご期待ください！</p>
             </div>
         </div>
-        <p>Repo: <a href="http://kirbysfan.github.io/rocky_homepage/lang_new.html">Github</a>&nbsp;|&nbsp;<a
-                href="http://kirbysfan.gitee.io/rocky_homepage/lang_new.html">Gitee</a>&nbsp;|&nbsp;<a
-                href="https://kirbysfan.sn-m.xyz/rocky/lastest/lang_new.html">Chihiro
-                Mirror</a></p>
+        <p>Repo: <span class="info"><a href="http://kirbysfan.github.io/rocky_homepage/lang_new.html">Github</a></span>&nbsp;|&nbsp;
+            <span class="info"><a href="http://kirbysfan.gitee.io/rocky_homepage/lang_new.html">Gitee</a></span>&nbsp;|&nbsp;
+            <span class="info"><a href="https://rocky.sn-m.xyz/lang_new.html">CloudMoe</a></span></p>
+        <p id="detail">&nbsp;</p>
         <div class="caution">
             <p><strong>The DNAxCAT character body is copyrighted to DNAxCAT.</strong></p>
         </div>
     </div>
+    <script>
+        var detail = document.getElementById("detail");
+        const info = document.querySelectorAll(".info");
+        var value;
+        var type;
+        info[0].setAttribute("onmouseenter", "type = 1; display(type)");
+        info[1].setAttribute("onmouseenter", "type = 2; display(type)");
+        info[2].setAttribute("onmouseenter", "type = 3; display(type)");
+        function display(value){
+            if(value === 1){
+                detail.innerHTML = "Repo on Github.";
+            }
+            if(value === 2){
+                detail.innerHTML = "Repo on Gitee.";
+            }
+            if(value === 3){
+                detail.innerHTML = "Chihiro's mirror based on CloudFlare."
+            }
+        }
+    </script>
 </body>
 
 </html>
