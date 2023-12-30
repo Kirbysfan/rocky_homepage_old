@@ -1,0 +1,209 @@
+.red{
+    animation: st_red 768ms infinite step-start;
+}
+.orange{
+    animation: st_orange 768ms infinite step-start;
+}
+.yellow{
+    animation: st_yellow 768ms infinite step-start;
+}
+.green{
+    animation: st_green 768ms infinite step-start;
+}
+.aqua{
+    animation: st_aqua 768ms infinite step-start;
+}
+.blue{
+    animation: st_blue 768ms infinite step-start;
+}
+.purple{
+    animation: st_purple 768ms infinite step-start;
+}
+@keyframes  st_red{
+    0%{
+        color: red;
+    }
+    16.67%{
+        color: orange;
+    }
+    33.3%{
+        color: yellow;
+    }
+    50%{
+        color: green;
+    }
+    50%{
+        color: aqua;
+    }
+    66.7%{
+        color: blue;
+    }
+    83.3%{
+        color: purple;
+    }
+    100%{
+        color: red;
+    }
+}
+
+@keyframes st_orange {
+    0%{
+        color: orange;
+    }
+    16.67%{
+        color: yellow;
+    }
+    33.3%{
+        color: green;
+    }
+    50%{
+        color: aqua;
+    }
+    50%{
+        color: blue;
+    }
+    66.7%{
+        color: purple;
+    }
+    83.3%{
+        color: red;
+    }
+    100%{
+        color: orange;
+    }
+}
+
+@keyframes st_yellow {
+    0%{
+        color: yellow;
+    }
+    16.67%{
+        color: green;
+    }
+    33.3%{
+        color: aqua;
+    }
+    50%{
+        color: blue;
+    }
+    50%{
+        color: purple;
+    }
+    66.7%{
+        color: red;
+    }
+    83.3%{
+        color: orange;
+    }
+    100%{
+        color: yellow;
+    }
+}
+
+@keyframes st_green {
+    0%{
+        color: green;
+    }
+    16.67%{
+        color: aqua;
+    }
+    33.3%{
+        color: blue;
+    }
+    50%{
+        color: purple;
+    }
+    50%{
+        color: red;
+    }
+    66.7%{
+        color: orange;
+    }
+    83.3%{
+        color: yellow;
+    }
+    100%{
+        color: green;
+    }
+}
+
+@keyframes st_aqua {
+    0%{
+        color: aqua;
+    }
+    16.67%{
+        color: blue;
+    }
+    33.3%{
+        color: purple;
+    }
+    50%{
+        color: red;
+    }
+    50%{
+        color: orange;
+    }
+    66.7%{
+        color: yellow;
+    }
+    83.3%{
+        color: green;
+    }
+    100%{
+        color: aqua;
+    }
+}
+
+@keyframes st_blue {
+    0%{
+        color: blue;
+    }
+    16.67%{
+        color: purple;
+    }
+    33.3%{
+        color: red;
+    }
+    50%{
+        color: orange;
+    }
+    50%{
+        color: yellow;
+    }
+    66.7%{
+        color: green;
+    }
+    83.3%{
+        color: aqua;
+    }
+    100%{
+        color: blue;
+    }
+}
+
+@keyframes st_purple {
+    0%{
+        color: purple;
+    }
+    16.67%{
+        color: red;
+    }
+    33.3%{
+        color: orange;
+    }
+    50%{
+        color: yellow;
+    }
+    50%{
+        color: green;
+    }
+    66.7%{
+        color: aqua;
+    }
+    83.3%{
+        color: blue;
+    }
+    100%{
+        color: purple;
+    }
+}
