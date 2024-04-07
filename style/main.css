@@ -301,3 +301,15 @@
     font-size: smaller;
     text-align: center;
 }
+
+.sn>a>img{
+    height: 36px;
+}
+
+.sn>a{
+    display: inline-block;
+}
+
+.sn>a:nth-child(2){
+    margin-left: 8px;
+}
